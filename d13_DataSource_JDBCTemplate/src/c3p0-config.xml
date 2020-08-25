@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+    <!--添加注释：cmd + d -->
+    <!--可以有多个配置，在创建连接池对象时传递参数为配置名称 name，默认配置即无参构造-->
+
+
+    <!--默认配置-->
+    <default-config>
+        <!--【连接参数】-->
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/db01</property>
+        <property name="user">root</property>
+        <property name="password">alan</property>
+
+        <!--【连接池参数】-->
+        <!-- 初始化申请的连接数量 -->
+        <property name="initialPoolSize">10</property>
+        <!-- 最大/最小连接数量 -->
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">10</property>
+        <!-- 超时时间 -->
+        <property name="checkoutTimeout">3000</property>
+        <property name="maxIdleTime">30</property>
+    </default-config>
+
+    <!--其他配置-->
+    <named-config name="myc3p0">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/db01</property>
+        <property name="user">root</property>
+        <property name="password">alan</property>
+
+        <property name="initialPoolSize">5</property>
+        <property name="maxPoolSize">10</property>
+        <property name="minPoolSize">5</property>
+        <property name="checkoutTimeout">3000</property>
+
+    </named-config>
+
+</c3p0-config>

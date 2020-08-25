@@ -1,0 +1,2 @@
+divide 方法异常异常名称：java.lang.ArithmeticException异常原因：/ by zero-----------------------nullString 方法异常异常名称：java.lang.NullPointerException异常原因：null-----------------------
+异常个数：2
