@@ -11,6 +11,7 @@ package d25_authority;
 
 不同包，非子类（客人）         O
 */
+
 public class MyClass {
 
     public int public_a = 4;

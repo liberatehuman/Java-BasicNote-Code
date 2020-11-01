@@ -2,9 +2,9 @@ package d02_Exercise;
 /*
  * 【练习】：定义一个方法，查询表中数据，将其结果封装为对象，装载进集合并返回
  *
- *  定义 Student 类
- *  定义方法 public List<Student> selectAll()
- *  实现方法 select * from student
+ *      定义 Student 类
+ *      定义方法 public List<Student> selectAll()
+ *      实现方法 select * from student
  * */
 
 import java.sql.*;

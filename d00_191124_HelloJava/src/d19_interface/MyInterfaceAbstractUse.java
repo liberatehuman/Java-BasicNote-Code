@@ -18,7 +18,7 @@ public class MyInterfaceAbstractUse {
 
     public static void main(String[] args) {
         //不能 new 一个接口
-        //MyInterfaceAbcstract interface=new MyInterfaceAbcstract(); 错误！
+        //MyInterfaceAbstract interface=new MyInterfaceAbcstract(); 错误！
 
         //创建接口的【实现类】来实现
         MyInterfaceAbstractImple implement = new MyInterfaceAbstractImple();

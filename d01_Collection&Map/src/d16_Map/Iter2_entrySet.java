@@ -2,7 +2,7 @@ package d16_Map;
 /*
  * 【遍历 Map 集合元素】2 ：【键值对对象】
  *
- *      Map的嵌套类(内部类)：【Map.Entry<K,V>接口 】（static Interface Entry<K,V>）
+ *      Map的嵌套类(内部类)：【Map.Entry<K,V> 接口】（static Interface Entry<K,V>）
  *
  *      一个Entry对象，同时包含一对 key 和 value（结婚证）
  *
@@ -13,9 +13,9 @@ package d16_Map;
  *              V getValue()：返回此Entry对象的value
  *
  * 【步骤】：
- * 1、使用 Map 集合的 entrySet 方法，将 Entry对象保存到 Set 集合中
- * 2、遍历 Set 集合，获取每个Entry对象（forEach 或 迭代器）
- * 3、使用 Entry 对象的 getKey 和 getValue 方法，获取每个 key 对应的 value
+ *  1、使用 Map 集合的 entrySet 方法，将 Entry对象保存到 Set 集合中
+ *  2、遍历 Set 集合，获取每个Entry对象（forEach 或 迭代器）
+ *  3、使用 Entry 对象的 getKey 和 getValue 方法，获取每个 key 对应的 value
  * */
 
 import java.util.HashMap;

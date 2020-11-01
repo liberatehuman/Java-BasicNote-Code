@@ -5,7 +5,7 @@ package d15_Collections;
  *      public static <T extends Comparable<? super T>> void sort(List<T> list)
  *
  *【使用前提】：
- *      被排序的集合的元素，必须实现【Comparable接口】，并重写其抽象方法【compareTo】定义排序规则
+ *      被排序的集合的元素，必须实现【Comparable 接口】，并重写其抽象方法【compareTo】定义排序规则
  *
  *【排序规则】：（原理数据结构排序算法？）
  *      (A,B) -> return A-B;//升序

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/spring-jdbc-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/spring-beans-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/druid-1.1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/mysql-connector-java-5.1.49 2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/c3p0-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/spring-tx-5.1.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/mchange-commons-java-0.2.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../d13_DataSource_JDBCTemplate/libs/spring-core-5.1.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

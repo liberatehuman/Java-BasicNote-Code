@@ -32,7 +32,7 @@ public class Demo01 {
         //2.定义配置文件
         //3.加载配置文件
         Properties properties = new Properties();
-        properties.load(new FileReader("d13_DataSource_JDBCTemplate/src/druid.properties"));
+        properties.load(new FileReader("/Users/ZHD/Documents/Idea Java projects/d13_DataSource_JDBCTemplate/src/druid.properties"));
 
         //4.获取数据库连接池对象
         DataSource dataSource = DruidDataSourceFactory.createDataSource(properties);

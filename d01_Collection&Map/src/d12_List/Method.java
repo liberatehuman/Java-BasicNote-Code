@@ -1,6 +1,6 @@
 package d12_List;
 /*
- * java.util.【List<E>接口】extends Collection<E>接口（Collection两大子类：List接口 和 Set接口）
+ * java.util.【List<E> 接口】extends Collection<E> 接口
  *
  * List接口特点：
  * 1、【有序】的集合，存、取元素顺序一致（存：123，取：123）

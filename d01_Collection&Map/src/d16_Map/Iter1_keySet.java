@@ -6,10 +6,9 @@ package d16_Map;
  *       Set<K> keySet()：返回此映射中包含key的Set集合视图
  *
  * 【步骤】：
- * 1、使用 Map 集合的 keySet 方法，将元素的 key 保存到 Set 集合中
- * 2、遍历 Set 集合，获取每个key（forEach 或 迭代器）
- * 3、使用 Map 集合的get(key)，获取每个 key 对应的 value
- *
+ *  1、使用 Map 集合的 keySet 方法，将元素的 key 保存到 Set 集合中
+ *  2、遍历 Set 集合，获取每个key（forEach 或 迭代器）
+ *  3、使用 Map 集合的get(key)，获取每个 key 对应的 value
  * */
 
 import java.util.HashMap;

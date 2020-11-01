@@ -3,8 +3,8 @@ package d01_JDBCDemo;
  * 【练习1】：在 account 表中添加一行数据
  *
  * 【注】：
- *  异常捕获处理，不要声明抛出，防止中途抛异常影响后续代码；
- *  释放资源在 finally 中；
+ *      异常捕获处理，不要声明抛出，防止中途抛异常影响后续代码；
+ *      释放资源在 finally 中；
  * */
 
 import java.sql.Connection;

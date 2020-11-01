@@ -39,7 +39,7 @@ public class Demo {
 
         //4. 创建 Thread 类对象，构造方法传参为Runnable实现类对象
         //Thread t = new Thread(mt);
-        Thread t = new Thread(new RunnableImpl2());//【扩展性】创建对象时可传不同实现类
+        Thread t = new Thread(new RunnableImpl2());//【扩展性】创建对象时可传不同实现类（mt只是展示用）
 
         //5. 调用 Thread 类的 start 方法
         t.start();
