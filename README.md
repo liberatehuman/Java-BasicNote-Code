@@ -1,4 +1,4 @@
-# Java-basic-note
+# JavaSE笔记&代码
 
 我自己学习Java基础的笔记和代码，纯手打（含概念笔记和详细注释），包含了Java语言基础、与MySQL连接和数据结构与算法的Java实现等  
 相关配置：
